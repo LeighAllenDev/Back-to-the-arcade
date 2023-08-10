@@ -1,0 +1,15 @@
+/* Widcard Selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles for the body */
+body {
+    display: flex;
+}
+
+main {
+    background-color: gray;
+}
