@@ -8,6 +8,7 @@
 /* General styles for the body */
 body {
     display: flex;
+    flex-direction: column;
 }
 
 main {
