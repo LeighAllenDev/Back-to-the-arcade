@@ -29,6 +29,13 @@ body {
     position: relative;
 }
 
+#cover-text {
+    position: absolute;
+    font-size: 140%;
+    background-color: darkorange;
+    color: #ffffff;
+}
+
 main {
     background-color: gray;
 }
