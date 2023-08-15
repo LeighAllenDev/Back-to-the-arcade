@@ -21,10 +21,6 @@ body {
     display: flex;
 }
 
-#logo {
-    text-align: center;
-    align-items: center;
-}
 
 #arcade {
     background: url("../images/pexels-cottonbro-studio-4836371.jpg") no-repeat center center/cover;
