@@ -13,20 +13,46 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    justify-content: space-between;
+    position: fixed;
+    display: inline-flex;
+    width: 100%;
+    z-index: 10;
+    align-items: baseline;
+    padding: 0 1rem;
+    background-color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
 }
 
 .logo {
     width: 200px;
     position: relative;
-    display: flex;
+    display: inline-block;
 }
 
+nav {
+    position: absolute;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    display: inline-flex;
+    align-self: flex-end;
+
+}
 
 #arcade {
     background: url("../images/pexels-cottonbro-studio-4836371.jpg") no-repeat center center/cover;
     height: 600px;
     width: 100%;
     position: relative;
+    margin-top: 50px;
 }
 
 #cover-text {
