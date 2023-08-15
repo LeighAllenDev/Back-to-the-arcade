@@ -19,12 +19,12 @@ body {
 header {
     justify-content: space-between;
     position: fixed;
-    display: inline-flex;
+    display: flex;
     width: 100%;
     z-index: 10;
     align-items: baseline;
     padding: 0 1rem;
-    background-color: #ffffff;
+    background-color: black;
 }
 
 header a {
@@ -32,19 +32,32 @@ header a {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     position: relative;
-    display: inline-block;
+    display: flex;
+    margin: 0 0.5rem;
 }
 
 nav {
-    position: absolute;
-    width: 100%;
-    padding: 0 1rem;
+    position: relative;
+    width: fit-content;
+    padding-right: 1rem;
     left: 0;
-    display: inline-flex;
-    align-self: flex-end;
+    display: flex;
 
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 120%;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    top: 0;
+}
+
+#menu > li {
+    padding-left: 1rem;
 }
 
 #arcade {
@@ -60,6 +73,9 @@ nav {
     font-size: 140%;
     background-color: darkorange;
     color: #ffffff;
+    margin-top: 150px;
+    right: 0;
+    padding: 1rem;
 }
 
 main {
