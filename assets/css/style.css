@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
 }
 
 header {
@@ -54,10 +55,12 @@ nav {
     letter-spacing: 4px;
     margin-bottom: 1rem;
     top: 0;
+    color: #ffffff;
 }
 
 #menu > li {
     padding-left: 1rem;
+    color: #ffffff;
 }
 
 #arcade {
