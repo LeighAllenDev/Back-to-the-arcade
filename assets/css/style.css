@@ -26,6 +26,13 @@ body {
     align-items: center;
 }
 
+#arcade {
+    background: url("../images/pexels-cottonbro-studio-4836371.jpg") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
 main {
     background-color: gray;
 }
