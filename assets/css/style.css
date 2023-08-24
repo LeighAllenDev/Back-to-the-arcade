@@ -88,7 +88,7 @@ nav {
     height: 600px;
 }
 
-#cover-text {
+.cover-text {
     position: absolute;
     font-size: 140%;
     background-color: darkorange;
