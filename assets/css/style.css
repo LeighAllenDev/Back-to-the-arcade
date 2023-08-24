@@ -58,9 +58,18 @@ nav {
     color: #ffffff;
 }
 
-#menu > li {
+#menu > li > a {
     padding-left: 1rem;
     color: #ffffff;
+}
+
+#menu > li > a:hover {
+    color: crimson;
+    transition-delay: 1ms;
+}
+
+.active {
+    color: orange;
 }
 
 #arcade {
