@@ -80,6 +80,13 @@ nav {
     margin-top: 50px;
 }
 
+#features-hero {
+    background: url("../images/arcadepinball.jpg") no-repeat center center/cover;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
 #cover-text {
     position: absolute;
     font-size: 140%;
