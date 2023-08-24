@@ -90,6 +90,9 @@ main {
     width: 30%;
 }
 
+footer {
+    background-color: black;
+    }
 
 #social-networks {
     text-align: center;
@@ -102,5 +105,5 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
