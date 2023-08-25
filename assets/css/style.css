@@ -30,22 +30,38 @@ header {
 
 header a {
     text-decoration: none;
+    color: inherit;
 }
 
 .logo {
-    width: 150px;
+    width: 130px;
     position: relative;
     display: flex;
-    margin: 0 0.5rem;
 }
 
 nav {
-    position: relative;
-    width: fit-content;
-    padding-right: 1rem;
+    position: absolute;
+    width: 100%;
+    padding: 1rem 1rem;
+    display: none;
+    top: 100%;
+    box-shadow: 0 2px 2px grey;
+    top: 100%;
     left: 0;
-    display: flex;
 
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
+}
+
+#navbar-toggle {
+    display: none;
+}
+.navbar-toggle-label {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-right: 1rem;
 }
 
 #menu {
@@ -155,4 +171,33 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #ffffff;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .navbar-toggle-label {
+        display: none;
+    }
+
 }
