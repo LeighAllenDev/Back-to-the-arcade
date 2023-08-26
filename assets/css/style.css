@@ -43,10 +43,9 @@ header a {
 nav {
     position: absolute;
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 0 1rem;
     display: none;
     top: 100%;
-    box-shadow: 0 2px 2px black;
     top: 100%;
     left: 0;
 }
@@ -65,13 +64,17 @@ nav {
 }
 
 #menu {
-    display: flex;
+    background-color: black;
     list-style-type: none;
     font-size: 120%;
     letter-spacing: 4px;
-    margin-bottom: 1rem;
-    top: 0;
     color: #ffffff;
+    width: 100%;
+    padding: 1rem;
+}
+
+#menu > li {
+    margin-bottom: 1rem;
 }
 
 #menu > li > a {
@@ -81,7 +84,6 @@ nav {
 
 #menu > li > a:hover {
     color: crimson;
-    transition-delay: 1ms;
 }
 
 .active {
