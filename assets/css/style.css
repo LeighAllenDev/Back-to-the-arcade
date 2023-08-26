@@ -49,6 +49,7 @@ nav {
     left: 0;
     text-align: left;
     font-size: 120%;
+    opacity: 80%;
 }
 
 #navbar-toggle:checked~nav {
@@ -123,6 +124,7 @@ nav {
     height: 600px;
 }
 
+/* Hero text for all pages */
 .cover-text {
     position: absolute;
     font-size: 140%;
