@@ -34,7 +34,7 @@ header a {
 }
 
 .logo {
-    width: 130px;
+    width: 30%;
     position: relative;
     display: flex;
 }
@@ -43,7 +43,6 @@ header a {
 nav {
     position: absolute;
     width: 100%;
-    padding: 0 1rem;
     display: none;
     top: 100%;
     top: 100%;
@@ -60,7 +59,6 @@ nav {
 .navbar-toggle-label {
     font-size: 3rem;
     color: #ffffff;
-    margin-right: 1rem;
 }
 
 #menu {
