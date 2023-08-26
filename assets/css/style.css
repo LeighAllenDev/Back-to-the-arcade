@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
 
 }
 
@@ -45,8 +46,9 @@ nav {
     width: 100%;
     display: none;
     top: 100%;
-    top: 100%;
     left: 0;
+    text-align: left;
+    font-size: 120%;
 }
 
 #navbar-toggle:checked~nav {
@@ -134,19 +136,16 @@ nav {
 main {
     background-color: black;
     color: #ffffff;
+
 }
 
-#who-we-are {
-    text-align: center;
-    align-self: center;
-}
 
 .who {
     padding: 1rem;
     size: 2rem;
     margin: 40px;
     width: 90%;
-    align-content: center;
+    text-align: center;
     
 }
 
@@ -207,6 +206,10 @@ footer {
 
     .navbar-toggle-label {
         display: none;
+    }
+
+    main {
+        left: 0;
     }
 
 }
