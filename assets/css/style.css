@@ -143,7 +143,7 @@ main {
 
 }
 
-#who-we-are {
+#intro > div {
     width: 90%;
     margin: 1.5rem auto;
     padding-bottom: 1rem;
@@ -202,33 +202,7 @@ footer {
 
 @media screen and (min-width: 768px) {
     
-    .navbar-toggle-label {
-        font-size: 4rem;
-        margin-top: 0;
-        display: flex;
-    }
-
-    main {
-        left: 0;
-    }
-
-    .logo {
-        width: 30%;
-        
-    }
-
-    #who-we-are {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    #intro-image {
-        display: inline;
-    }
-
-}
-
-@media screen and (min-width: 1200px) {
+ 
     nav {
         display: block;
         position: relative;
@@ -248,6 +222,29 @@ footer {
         display: none;
     }
 
+    main {
+        left: 0;
+    }
+
+    .logo {
+        width: 30%;
+        
+    }
+
+    #intro-image {
+        display: inline;
+        width: 20%;
+    }
+
+
+  
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-toggle-label {
+        display: none;
+    }
+
     .intro {
         display: flex;
         flex-direction: row;
@@ -256,4 +253,22 @@ footer {
     .intro > div {
         flex: 1;
     }
+
+    #intro-image {
+        order: 0;
+    }
+
+    .offering {
+        order: 1;
+    }
+
+    .who > div {
+        align-self: flex-start;
+    }
+
+    .offering > div {
+        align-self: flex-end;
+    }
+
+  
 }
