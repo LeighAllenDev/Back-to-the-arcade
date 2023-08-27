@@ -24,7 +24,7 @@ header {
     display: flex;
     width: 100%;
     z-index: 10;
-    align-items: baseline;
+    align-items: end;
     padding: 0 1rem;
     background-color: black;
 }
@@ -62,6 +62,7 @@ nav {
 .navbar-toggle-label {
     font-size: 3rem;
     color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 #menu {
@@ -143,7 +144,7 @@ main {
 }
 
 #who-we-are {
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .who {
@@ -168,6 +169,7 @@ p {
     height: 45%;
     border-radius: 50%;
     padding: 1rem;
+    display: none;
 }
 
 footer {
@@ -196,6 +198,33 @@ footer {
 
 
 @media screen and (min-width: 768px) {
+    
+    .navbar-toggle-label {
+        font-size: 4rem;
+        margin-top: 0;
+        display: flex;
+    }
+
+    main {
+        left: 0;
+    }
+
+    .logo {
+        width: 30%;
+        
+    }
+
+    #who-we-are {
+        width: 100%;
+    }
+
+    #girl-machine {
+        display: inline;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
     nav {
         display: block;
         position: relative;
@@ -214,13 +243,4 @@ footer {
     .navbar-toggle-label {
         display: none;
     }
-
-    main {
-        left: 0;
-    }
-
-    .logo {
-        width: 20%;
-    }
-
 }
