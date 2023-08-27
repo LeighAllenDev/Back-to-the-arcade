@@ -167,7 +167,7 @@ p {
     padding-top: 1rem;
 }
 
-#girl-machine {
+#intro-image {
     width: 45%;
     height: 45%;
     border-radius: 50%;
@@ -222,7 +222,7 @@ footer {
         padding: 1rem;
     }
 
-    #girl-machine {
+    #intro-image {
         display: inline;
     }
 
@@ -246,5 +246,14 @@ footer {
 
     .navbar-toggle-label {
         display: none;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro > div {
+        flex: 1;
     }
 }
