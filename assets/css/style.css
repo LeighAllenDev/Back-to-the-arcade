@@ -93,7 +93,7 @@ nav {
 }
 
 /* Hero Images */
-#arcade {
+#home-hero {
     background: url("../images/pexels-cottonbro-studio-4836371.jpg") no-repeat center center/cover;
     height: 600px;
     width: 100%;
@@ -144,7 +144,10 @@ main {
 }
 
 #who-we-are {
-    padding: 0 5%;
+    width: 90%;
+    margin: 1.5rem auto;
+    padding-bottom: 1rem;
+
 }
 
 .who {
@@ -216,6 +219,7 @@ footer {
 
     #who-we-are {
         width: 100%;
+        padding: 1rem;
     }
 
     #girl-machine {
