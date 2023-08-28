@@ -128,12 +128,19 @@ nav {
 /* Hero text for all pages */
 .cover-text {
     position: absolute;
-    font-size: 140%;
+    font-size: 130%;
     background-color: darkorange;
     color: #ffffff;
     margin-top: 150px;
-    right: 0;
+    padding: 1.5rem;
+    border-radius: 8.5%;
+    opacity: 90%;
     padding: 1rem;
+}
+
+.cover-text > h3 {
+    width: 90%;
+    text-align: center;
 }
 
 main {
@@ -235,6 +242,10 @@ footer {
     #intro-image {
         display: inline;
         width: 20%;
+    }
+
+    .cover-text {
+        right: 5%;
     }
 
 
