@@ -248,14 +248,18 @@ footer {
     .intro {
         display: flex;
         flex-direction: row;
+        padding: 1rem;
     }
 
     .intro > div {
         flex: 1;
+        padding: 1rem;
     }
 
     #intro-image {
         order: 0;
+        padding: 1rem auto;
+        margin-top: 1.5rem;
     }
 
     .offering {
@@ -264,10 +268,12 @@ footer {
 
     .who > div {
         align-self: flex-start;
+        text-align: start;
     }
 
     .offering > div {
         align-self: flex-end;
+        text-align: end; 
     }
 
   
