@@ -181,7 +181,7 @@ p {
     padding-top: 1rem;
 }
 
-#intro-image {
+.intro-image {
     width: 45%;
     height: 45%;
     border-radius: 50%;
@@ -261,9 +261,9 @@ footer {
         
     }
 
-    #intro-image {
+    .intro-image {
         display: inline;
-        width: 20%;
+        width: 40%;
     }
 
     .cover-text {
@@ -290,9 +290,8 @@ footer {
         padding: 1rem;
     }
 
-    #intro-image {
+    .intro-image {
         order: 0;
-        padding: 2rem auto;
         margin-top: 2rem;
         border-radius: 45%;
     }
