@@ -292,8 +292,9 @@ footer {
 
     #intro-image {
         order: 0;
-        padding: 1rem auto;
-        margin-top: 1.5rem;
+        padding: 2rem auto;
+        margin-top: 2rem;
+        border-radius: 45%;
     }
 
     .offering {
