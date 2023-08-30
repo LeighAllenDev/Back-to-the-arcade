@@ -158,8 +158,7 @@ main {
 
 #intro > div {
     width: 90%;
-    margin: 1.5rem auto;
-    padding-bottom: 1rem;
+    margin: 1.5rem;
 
 }
 
@@ -191,7 +190,7 @@ p {
 
 .description {
     width: 100%;
-    padding: 0 1.75rem;
+    padding: 0 1rem;
 }
 
 #bundles {
@@ -207,14 +206,11 @@ p {
 
 table {
     text-align: left;
+    padding: 1rem;
 }
 
 td {
     padding: 1rem;
-}
-
-#pricing {
-    padding: 10%;
 }
 
 footer {
@@ -234,8 +230,6 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
-
-
 
 
 
@@ -321,6 +315,7 @@ footer {
         align-self: flex-end;
         text-align: end; 
     }
+
 
   
 }
