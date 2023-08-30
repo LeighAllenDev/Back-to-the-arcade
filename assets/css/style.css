@@ -198,11 +198,12 @@ p {
 #bundles {
     position: relative;
     align-items: center;
-
 }
 
-td {
-    border: 1px solid white;
+.bundles-table {
+    align-self: center;
+    display:inline-block;
+    padding: 1rem;
 }
 
 footer {
