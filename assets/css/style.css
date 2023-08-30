@@ -195,6 +195,12 @@ p {
     padding: 0 2.5rem;
 }
 
+#bundles {
+    position: relative;
+    align-items: center;
+    
+}
+
 footer {
     background-color: black;
     }
