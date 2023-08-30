@@ -92,6 +92,14 @@ nav {
     border-bottom: 1px solid darkorange;
 }
 
+main > section {
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Hero Images */
 #home-hero {
     background: url("../images/pexels-cottonbro-studio-4836371.jpg") no-repeat center center/cover;
