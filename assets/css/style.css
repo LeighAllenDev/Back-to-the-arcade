@@ -136,12 +136,11 @@ ul {
 /* Hero text for all pages */
 .cover-text {
     position: absolute;
-    font-size: 130%;
+    font-size: 100%;
     background-color: darkorange;
     color: #ffffff;
-    margin-top: 150px;
-    padding: 1.5rem;
-    opacity: 75%;
+    margin-top: 300px;
+    opacity: 70%;
     padding: 1rem;
 }
 
