@@ -205,6 +205,18 @@ p {
     padding: 1rem;
 }
 
+table {
+    text-align: left;
+}
+
+td {
+    padding: 1rem;
+}
+
+#pricing {
+    padding: 10%;
+}
+
 footer {
     background-color: black;
     }
@@ -263,7 +275,7 @@ footer {
 
     .intro-image {
         display: inline;
-        width: 40%;
+        width: 30%;
     }
 
     .cover-text {
