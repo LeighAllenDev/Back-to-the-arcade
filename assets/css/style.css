@@ -301,7 +301,7 @@ footer {
         order: 1;
     }
 
-    .who > div {
+    .who > div, #retro > div{ 
         align-self: flex-start;
         text-align: start;
     }
