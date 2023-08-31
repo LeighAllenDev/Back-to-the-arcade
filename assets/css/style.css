@@ -207,11 +207,11 @@ p {
 table {
     text-align: left;
     padding: 1rem;
-    margin: 2%;
 }
 
 td {
     padding: 1rem;
+    margin-bottom: 15px;
 }
 
 footer {
