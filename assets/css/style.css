@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: center;
-
 }
 
 h1, h2, h3, h4 {
@@ -171,19 +170,15 @@ ul {
     color: #ffffff;
 }
 
-
-
 #intro > div {
     width: 90%;
     margin: 1.5rem;
-
 }
 
 .who {
     padding: 5%;
     size: 100%;
     width: 100%;
-    
 }
 
 .subtitle {
@@ -200,8 +195,6 @@ ul {
     max-width: 300px;
     max-height: 300px;
 }
-
-
 
 .description {
     width: 100%;
@@ -229,12 +222,10 @@ td, th {
     border: 1px dashed darkorange;
 }
 
-
-
 /* Footer element */
 footer {
     background-color: black;
-    }
+}
 
 #social-networks {
     text-align: center;
@@ -250,14 +241,8 @@ footer {
     color: #ffffff;
 }
 
-
-
-
-
-
+/* Media queries */
 @media screen and (min-width: 768px) {
-    
- 
     nav {
         display: block;
         position: relative;
@@ -294,8 +279,6 @@ footer {
     .cover-text {
         right: 5%;
     }
-
-
   
 }
 
@@ -332,7 +315,5 @@ footer {
         align-self: flex-end;
         text-align: end; 
     }
-
-
   
 }
