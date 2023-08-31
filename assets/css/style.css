@@ -116,11 +116,14 @@ main {
     text-align: center;
 }
 
-section {
-    padding: 1.75rem;
-}
+
 ul {
     list-style-type: none;
+    text-align: center;
+}
+
+.intro > div {
+    padding: 0.5rem;
 }
 
 /* Hero Images */
@@ -187,10 +190,6 @@ ul {
     display: none;
 }
 
-.intro > div {
-    padding: 1.75rem;
-}
-
 .description > div {
     width: 100%;
     padding: 1.5rem;
@@ -204,7 +203,6 @@ thead {
 
 table {
     width: 100%;
-    padding: 1rem 10%;
 }
 
 td, th {
@@ -286,7 +284,7 @@ footer {
 
     .intro > div {
         flex: 1;
-        padding: 1rem;
+        padding: 1.75rem;
     }
 
     .intro-image {
