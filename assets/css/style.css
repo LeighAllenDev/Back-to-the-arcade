@@ -18,6 +18,12 @@ body {
 
 }
 
+h1, h2, h3, h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: darkorange;
+}
+
 p {
     font-size: 150%;
     padding-top: 1rem;
@@ -102,6 +108,12 @@ nav {
     border-bottom: 1px solid darkorange;
 }
 
+main {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
 main > section {
     padding: 2rem;
 }
@@ -148,23 +160,18 @@ ul {
     position: absolute;
     font-size: 100%;
     background-color: darkorange;
-    color: #ffffff;
     margin-top: 300px;
     opacity: 70%;
     padding: 1rem;
 }
 
-.cover-text > h3 {
+.cover-text > h2, h3 {
     width: 90%;
-    text-align: center;
-}
-
-main {
-    background-color: black;
+    text-transform: capitalize;
     color: #ffffff;
-    text-align: center;
-
 }
+
+
 
 #intro > div {
     width: 90%;
