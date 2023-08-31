@@ -18,6 +18,16 @@ body {
 
 }
 
+p {
+    font-size: 150%;
+    padding-top: 1rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 header {
     justify-content: space-between;
     position: fixed;
@@ -175,10 +185,7 @@ main {
     margin-top: 1rem;
 }
 
-p {
-    font-size: 150%;
-    padding-top: 1rem;
-}
+
 
 .intro-image {
     width: 45%;
@@ -204,10 +211,13 @@ p {
     padding: 1rem;
 }
 
-table, td, th {
+td, th {
     text-align: left;
     padding: 1rem;
+    border: 1px dashed whitesmoke;
 }
+
+
 
 /* Footer element */
 footer {
