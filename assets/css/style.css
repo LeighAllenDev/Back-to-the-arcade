@@ -204,16 +204,12 @@ p {
     padding: 1rem;
 }
 
-table {
+table, td, th {
     text-align: left;
     padding: 1rem;
 }
 
-td {
-    padding: 1rem;
-    margin-bottom: 15px;
-}
-
+/* Footer element */
 footer {
     background-color: black;
     }
