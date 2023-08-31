@@ -172,7 +172,6 @@ ul {
 
 #intro > div {
     width: 90%;
-    margin: 1.5rem;
 }
 
 .who {
@@ -194,13 +193,17 @@ ul {
     margin-bottom: 20px;
     max-width: 300px;
     max-height: 300px;
+    display: none;
 }
 
 .description {
     width: 100%;
-    padding: 0 1rem;
+    margin-top: auto;
 }
 
+.games {
+    padding: 0%;
+}
 #bundles {
     position: relative;
     align-items: center;
@@ -242,7 +245,7 @@ footer {
 }
 
 /* Media queries */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
     nav {
         display: block;
         position: relative;
@@ -267,13 +270,13 @@ footer {
     }
 
     .logo {
-        width: 30%;
-        
+        width: 30%; 
+        display: flex;
+        position: relative;
     }
 
     .intro-image {
-        display: flex;
-        flex-wrap: wrap;
+        display: inline;
     }
 
     .cover-text {
