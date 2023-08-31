@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: darkorange;
+    line-height: 1.5rem;
 }
 
 p {
@@ -183,7 +184,6 @@ ul {
 .subtitle {
     font-size: 180%;
     color: darkorange;
-    margin-top: 1rem;
 }
 
 .intro-image {
@@ -198,15 +198,11 @@ ul {
 
 .description {
     width: 100%;
-    margin-top: auto;
+    padding: 1rem;
 }
 
 .games {
     padding: 0%;
-}
-#bundles {
-    position: relative;
-    align-items: center;
 }
 
 /* Tables */
@@ -216,7 +212,7 @@ thead {
 
 table {
     width: 100%;
-    padding: 0 10%;
+    padding: 1rem 10%;
 }
 
 td, th {
