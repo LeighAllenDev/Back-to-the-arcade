@@ -176,11 +176,10 @@ ul {
     padding: 0.5rem;
 }
 
-
-
 .subtitle {
     font-size: 180%;
     color: darkorange;
+    margin-top: 1rem;
 }
 
 .intro-image {
@@ -195,8 +194,9 @@ ul {
 
 .description > div {
     width: 100%;
-    padding: 1.5rem;
-    margin: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 /* Tables */
