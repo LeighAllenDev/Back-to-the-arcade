@@ -192,15 +192,16 @@ ul {
     margin-top: 1rem;
 }
 
-
-
 .intro-image {
-    width: 45%;
-    height: 45%;
+    width: 90vw;
+    height: 90vw;
     border-radius: 50%;
-    padding: 1rem;
-    display: none;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
 }
+
+
 
 .description {
     width: 100%;
@@ -286,8 +287,8 @@ footer {
     }
 
     .intro-image {
-        display: inline;
-        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .cover-text {
@@ -316,8 +317,6 @@ footer {
 
     .intro-image {
         order: 0;
-        margin-top: 2rem;
-        border-radius: 45%;
     }
 
     .offering {
