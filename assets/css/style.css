@@ -116,6 +116,9 @@ main {
     text-align: center;
 }
 
+section {
+    padding: 1.75rem;
+}
 ul {
     list-style-type: none;
 }
@@ -169,17 +172,6 @@ ul {
     color: #ffffff;
 }
 
-.intro > div {
-    width: 90%;
-    padding: 2em;
-}
-
-.who {
-    padding: 5%;
-    size: 100%;
-    width: 100%;
-}
-
 .subtitle {
     font-size: 180%;
     color: darkorange;
@@ -195,9 +187,14 @@ ul {
     display: none;
 }
 
-.description {
+.intro > div {
+    padding: 1.75rem;
+}
+
+.description > div {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
+    margin: auto;
 }
 
 /* Tables */
