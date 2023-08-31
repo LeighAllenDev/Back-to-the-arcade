@@ -40,14 +40,22 @@ The target audience for back to the Arcade are people that enjoy gaming of all e
 * People interested in family friendly activities in the Brighton area
 
 ### User Stories
-During the reaserch phase, users of retro arcades have asked for:
-
+During the reaserch phase, users of retro arcades had the following they wanted to see in this arcade:
+* A user said they wanted somewhere to play classic games with a friendly atmosphere
+* A user said they wanted an authentic gaming experience with the ability to eat good food while playing
+* A user wanted a family friendly place where they can teach their children about the golden age of gaming
 
 ### Site Aims
-
+The site aims to provide information to people in the brighton area about the arcade in an easy to use format with all possible questions answered in one place by:
+* Informing the user who we are and what we offer
+* Providing the user with the prices of all the items in one place
+* Giving users the information they need on how to find the arcade
 
 ### Color Scheme
-
+The site uses a color scheme to compliment the Logo image. The primary colors used are:
+* black #000 
+* Dark Orange
+* White
 
 ### Typograpy
 
@@ -74,7 +82,7 @@ During the reaserch phase, users of retro arcades have asked for:
 
 
 ## Tech
-
+The entire website is built using HTML and CSS as per the project requirements
 
 ## Credits
 
