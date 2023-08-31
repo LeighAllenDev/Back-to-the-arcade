@@ -17,6 +17,18 @@ The Arcade aims to bring Retro games into the modern world and share the joy of 
     * [Color Scheme](#color-scheme)
     * [Typography](#typograpy)   
 3. [Current Features](#current-features)
+    * [Header Element:](#header-element)
+    * [The Site Features](#the-site-features)
+    * [Footer](#footer)
+4. [Future Enhancements](#future-enhancements)
+5. [Testing Phase](#testing-phase)
+6. [Deployment](#deployment)
+7. [Tech](#tech)
+8. [Credits](#credits)
+    * [Honorable Mentions](#honerable-mentions)
+    * [General Reference](#general-reference)
+    * [Content](#content)
+    * [Media](#media)
 
 ## Planning Stage
 
@@ -28,6 +40,7 @@ The target audience for back to the Arcade are people that enjoy gaming of all e
 * People interested in family friendly activities in the Brighton area
 
 ### User Stories
+During the reaserch phase, users of retro arcades have asked for:
 
 
 ### Site Aims
@@ -40,3 +53,39 @@ The target audience for back to the Arcade are people that enjoy gaming of all e
 
 
 ## Current Features Common to all pages
+
+
+### Header Element:
+
+
+### The Site Features: 
+
+
+### Footer
+
+
+## Future Enhancements
+
+
+## Testing Phase
+
+
+## Deployment
+
+
+## Tech
+
+
+## Credits
+
+
+### Honerable Mentions
+
+
+### General Reference
+
+
+### Content
+
+
+### Media
