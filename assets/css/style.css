@@ -205,14 +205,18 @@ main {
     align-items: center;
 }
 
-.bundles-table {
-    align-self: center;
-    display:inline-block;
-    padding: 1rem;
+/* Tables */
+thead {
+    font-size: 200%;
+}
+
+table {
+    width: 100%;
+    padding: 0 10%;
 }
 
 td, th {
-    text-align: left;
+    text-align: center;
     padding: 1rem;
     border: 1px dashed darkorange;
 }
