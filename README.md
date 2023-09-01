@@ -77,12 +77,18 @@ Across the site I have used the same styles for each of the web pages so they ar
  * Each page of the website follows the same basic structure with a Hero image followed by 1 or more sections.
  * Each hero image has a cover text element and these all follow the same design structure as this provides consistancy above the whole site.
  * The index and Features pages both employ the same design style with a center image surrounded by text, note that for responsiveness this image only appears on larger devices, while on smaller devices the text stacks on top of each other.
+ * The tables on the pricing and refreshments pages are laid out consistantly with the design of the website by: 
+		* Using the same dark orange coloring for the borders as the cover image text.
+		* being consistent in size and spacing to allow for full content to be viewable on mobile devices while not looking crampt on larger screens.
 
 ### Footer
-
+The footer element is designed to be responsive and spans across the bottom of the page across all screen sizes without taking up too much room.
+ * The social network icons are evenly spaced across the footer and all open as new tabs rather than the current tab, this improves accessibility.
 
 ## Future Enhancements
-
+ * A Sign-up page to inform potential customers about the arcades latest updates
+ * The option for potential customers to book their visit online
+ * There is potential to add javascript to make the web page interactive 
 
 ## Testing Phase
 
@@ -91,7 +97,9 @@ Across the site I have used the same styles for each of the web pages so they ar
 
 
 ## Tech
-The entire website is built using HTML and CSS as per the project requirements
+As per the Code Institute project guidlines, this website is entirely built using the following technologies:
+  * HTML
+  * CSS
 
 ## Credits
 
