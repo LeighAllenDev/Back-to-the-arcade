@@ -110,6 +110,12 @@ The header element had to be extensively tested as it worked as expected on larg
 
 
 Once I was happy that the project had all the desired content I was able to run the working url through some validators with the following results: -
+ * I ran the website through w3 html validator.
+![536C09CE-4962-4256-86E4-049D601919D5_1_201_a](https://github.com/LeighAllenDev/Back-to-the-arcade/assets/140525595/68df0b93-2116-4aa1-91a6-fc21b4a1c25e)
+
+ * I then ran the website through w3c jigsaw css checker.
+![CCDF6F65-115C-43F1-953D-47243491B347_1_201_a](https://github.com/LeighAllenDev/Back-to-the-arcade/assets/140525595/2dfef421-bfab-4775-baa3-a7cdfaa13152)
+
 
 ## Bugs
 * The logo has issues loading correctly when changing between small and medium screen sizes in Chrome Dev Tools. I believe this is caused by the size of the nav bar. there is a fix in place with a media query that allows the logo to show correctly on tablets however this isnt a permanent fix as the issue still persists in dev tools.
