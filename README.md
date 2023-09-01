@@ -55,9 +55,17 @@ The site aims to provide information to people in the brighton area about the ar
 
 ### Color Scheme
 The site uses a color scheme to compliment the Logo image. The primary colors used are:
-* black #000 
+* black
+    * #000000
+    * rgb(0, 0, 0)
+  
 * Dark Orange
+    * #FF8C00
+    * rgb(255, 140, 0)
+ 
 * White
+    * #ffffff
+    * rgb(255, 255, 255
 
 ### Typograpy
 This website solely uses the Exo 2 font as it fits in with the theme of the logo font and has a retro game feel to it.  
@@ -104,10 +112,12 @@ The header element had to be extensively tested as it worked as expected on larg
 * During the testing phase, the logo had issues where it would spontainiously change its size and position on tablets, this has now been fixed with an aditional media query. 
 
 ### Body:
-
+* The body element has sections on it that on a larger screen all flex in a row however on a smaller screen it took a lot of testing to get them to show up correctly. I was not confident with CSS flexing but after some experimentation I was able to get the sections to stack up correctly.
+* The images between the text on the features and index pages both use the same css styling, originally they were seperate with the images as backgrounds in css however I realised that if they are img elements on in the html it is easier to make their styling more uniform with each other.
+* The images also caused issues on smaller devices so I decided it was better for them to only show up on larger devices as they didn't sit right on mobiles.
 
 ### Footer:
-
+The footer element works across all device sizes and the links opened new tabs across all devices thanks to me using the _blank actribute. The code works as it was closely borrowed from a previous project on Code Institute. On mobile devices, if the user has the apps for the social network links then rather than opening a new tab the link directly opens the app.
 
 Once I was happy that the project had all the desired content I was able to run the working url through some validators with the following results: -
  * I ran the website through w3 html validator.
@@ -134,12 +144,15 @@ As per the Code Institute project guidlines, this website is entirely built usin
 
 ## Credits
 
-
 ### Honerable Mentions
-
+* For this site I got most of my inspiration from my Mentor for the course and he's been very helpful during the development process.
+* My manager at my current job is a big fan of retro gaming and he helped me with some of the games to mention on this project.
+* My partner helped me with the menu and the bundle tables and prices as she likes food and has experience in canteens.
+* The logo design was taken from the Back To The Future movie franchise which I edited on my iPad using Procreate to create the logo as seen on the site. This logo also inspired the color scheme of the entire site.
 
 ### General Reference
-
+* A lot of the layout and the styling aspects of this project were inspired by the Love Running project on Code Institute.
+* Most of the images were from Pexels.com free to use stock images. See media section for references
 
 ### Content
 
