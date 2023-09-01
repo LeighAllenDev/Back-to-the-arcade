@@ -158,5 +158,17 @@ As per the Code Institute project guidlines, this website is entirely built usin
 
 
 ### Media
+* index.html
+    * Hero image: Photo by cottonbro studio: https://www.pexels.com/photo/people-standing-in-front-of-store-during-night-time-4836371/
+    * Center image: Photo by Mikhail Nilov: https://www.pexels.com/photo/woman-wearing-a-denim-jacket-playing-a-video-game-7887721/
+* Features.html
+    * Hero image: Photo by cottonbro studio: https://www.pexels.com/photo/man-in-black-jacket-and-white-pants-standing-in-front-of-counter-4841182/
+    * Center Image: Photo by Francesco Ungaro: https://www.pexels.com/photo/mosaic-alien-on-wall-1670977/
+* Refreshments.html
+    * Hero image: Photo by <a href="https://unsplash.com/@xdqx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">darlene</a> on <a href="https://unsplash.com/photos/iRL1P94z4Xc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* Pricing.html
+    * Hero image: Photo by <a href="https://unsplash.com/@kanchanara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kanchanara</a> on <a href="https://unsplash.com/photos/tL9NpBM0KhY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 
 [def]: assets/images/AmIResponsive.png
