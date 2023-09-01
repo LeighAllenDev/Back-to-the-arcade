@@ -34,7 +34,7 @@ The Arcade aims to bring Retro games into the modern world and share the joy of 
 
 ## Planning Stage
 
-### target Audience
+### Target Audience
 The target audience for back to the Arcade are people that enjoy gaming of all eras.
 * People interested in the nostalgic effect of retro gaming
 * People that enjoy going to arcades
@@ -94,8 +94,18 @@ The footer element is designed to be responsive and spans across the bottom of t
 During the Testing Phase I relied heavely on Google Developer Tools which allowed me to test the responsiveness and layouts across multiple screen sizes. 
    * With the GitHub Mobile app I was able to continuously test the layout of each page and feature on My iPhone 14 pro, as well as my iPad Air 4th Gen.
    * I was able to test the layout on a MacBook Air as well as a larger monitor which all helped me see any bugs and issues in real time.
+
+### Header
+The header element had to be extensively tested as it worked as expected on large devices but I encountered issues on smaller devices;
+* The navigation toggle seemed to dance around the top of the page when switching from small -smartphone- displays to medium sized tablet displays, this caused inconsistancy with the pages.
+* The drop down menu was one of the most confusing aspects of developing the site while being restricted to css and html.    The following issues were present:
+    * The nav links would show up as a single horizontal line on smaller devices which made it all but unusable on smart phones. 
+    * Once the nav bar had been styled for a block layout rather than inline this fixed the problem and allowed the items to fall vertically.
+* During the testing phase, the logo had issues where it would spontainiously change its size and position on tablets, this has now been fixed with an aditional media query. 
+
 Once I was happy that the project had all the desired content I was able to run the working url through some validators with the following results: -
 
+## Bugs
 
 ## Deployment
 As I needed to text the website on multiple devices with different screen sizes, I deployed the website very early in the development proce. To achieve this I depoloyed the site using GitHub pages where I performed the following steps: -
