@@ -91,6 +91,10 @@ The footer element is designed to be responsive and spans across the bottom of t
  * There is potential to add javascript to make the web page interactive 
 
 ## Testing Phase
+During the Testing Phase I relied heavely on Google Developer Tools which allowed me to test the responsiveness and layouts across multiple screen sizes. 
+   * With the GitHub Mobile app I was able to continuously test the layout of each page and feature on My iPhone 14 pro, as well as my iPad Air 4th Gen.
+   * I was able to test the layout on a MacBook Air as well as a larger monitor which all helped me see any bugs and issues in real time.
+Once I was happy that the project had all the desired content I was able to run the working url through some validators with the following results: -
 
 
 ## Deployment
