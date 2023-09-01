@@ -63,10 +63,12 @@ This website solely uses the Exo 2 font as it fits in with the theme of the logo
 The font was taken from Google Fonts as described in the credits section.
 
 ## Current Features Common to all pages
-
+Across the site I have used the same styles for each of the web pages so they are easy to follow and the code is readable.
 
 ### Header Element:
-
+ * The Header encorporates a logo image that takes up the same amount of the screen across devices.
+ * There is a Navigation bar with working links across all devices, it has different sizes and styles depending on the size of the device:
+      * On Mobile devices such as smart phones, the nav bar shows as a burger menu icon with a dropdown toggle.
 
 ### The Site Features: 
 
