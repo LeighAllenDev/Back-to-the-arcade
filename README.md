@@ -81,7 +81,7 @@ Across the site I have used the same styles for each of the web pages so they ar
     * Using the same dark orange coloring for the borders as the cover image text.
     * being consistent in size and spacing to allow for full content to be viewable on mobile devices while not looking crampt on larger screens.
 
-### Footer
+### Footer:
 The footer element is designed to be responsive and spans across the bottom of the page across all screen sizes without taking up too much room.
  * The social network icons are evenly spaced across the footer and all open as new tabs rather than the current tab, this improves accessibility.
 
@@ -95,7 +95,7 @@ During the Testing Phase I relied heavely on Google Developer Tools which allowe
    * With the GitHub Mobile app I was able to continuously test the layout of each page and feature on My iPhone 14 pro, as well as my iPad Air 4th Gen.
    * I was able to test the layout on a MacBook Air as well as a larger monitor which all helped me see any bugs and issues in real time.
 
-### Header
+### Header:
 The header element had to be extensively tested as it worked as expected on large devices but I encountered issues on smaller devices;
 * The navigation toggle seemed to dance around the top of the page when switching from small -smartphone- displays to medium sized tablet displays, this caused inconsistancy with the pages.
 * The drop down menu was one of the most confusing aspects of developing the site while being restricted to css and html.    The following issues were present:
@@ -103,9 +103,16 @@ The header element had to be extensively tested as it worked as expected on larg
     * Once the nav bar had been styled for a block layout rather than inline this fixed the problem and allowed the items to fall vertically.
 * During the testing phase, the logo had issues where it would spontainiously change its size and position on tablets, this has now been fixed with an aditional media query. 
 
+### Body:
+
+
+### Footer:
+
+
 Once I was happy that the project had all the desired content I was able to run the working url through some validators with the following results: -
 
 ## Bugs
+* The logo has issues loading correctly when changing between small and medium screen sizes in Chrome Dev Tools. I believe this is caused by the size of the nav bar. there is a fix in place with a media query that allows the logo to show correctly on tablets however this isnt a permanent fix as the issue still persists in dev tools.
 
 ## Deployment
 As I needed to text the website on multiple devices with different screen sizes, I deployed the website very early in the development proce. To achieve this I depoloyed the site using GitHub pages where I performed the following steps: -
