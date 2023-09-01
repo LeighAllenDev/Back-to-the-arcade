@@ -59,8 +59,8 @@ The site uses a color scheme to compliment the Logo image. The primary colors us
 * White
 
 ### Typograpy
-This website solely uses the Exo 2 font as it fits in with the theme of the logo font and has a retro game feel to it. 
-the font was taken from Google Fonts as described in the credits section.
+This website solely uses the Exo 2 font as it fits in with the theme of the logo font and has a retro game feel to it.  
+The font was taken from Google Fonts as described in the credits section.
 
 ## Current Features Common to all pages
 
