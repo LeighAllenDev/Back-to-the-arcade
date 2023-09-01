@@ -109,9 +109,9 @@ Once I was happy that the project had all the desired content I was able to run 
 
 ## Deployment
 As I needed to text the website on multiple devices with different screen sizes, I deployed the website very early in the development proce. To achieve this I depoloyed the site using GitHub pages where I performed the following steps: -
-   1. In the projects repository I clicked on the *Settings* tab.
-   2. I then selected the Pages tab in the menu on the left.
-   3. In the Source section, I Selected the Main branch of my repository from the dropdown menu, then clicked Save.
+   1. In the projects repository I clicked on the **Settings** tab.
+   2. I then selected the **Pages** tab in the menu on the left.
+   3. In the **Source** section, I Selected the **Main branch** of my repository from the dropdown menu, then clicked **Save**.
    4. A Message was displayed that confirmed successful deployment to GitHub pages and this provided a live link. The live website can be found via the following URL - https://leighallendev.github.io/Back-to-the-arcade/
 
 ## Tech
