@@ -70,6 +70,8 @@ Across the site I have used the same styles for each of the web pages so they ar
  * The Header encorporates a logo image that takes up the same amount of the screen across devices.
  * There is a Navigation bar with working links across all devices, it has different sizes and styles depending on the size of the device:
       * On Mobile devices such as smart phones, the nav bar shows as a burger menu icon with a dropdown toggle.
+      * On larger portable devices such as Tablets, the Navigation bar is still hidden in a burger style dropdown toggle menu.
+      * On Laptops and Desktops the Navigation links span across the top-right of the screen and the Logo is fixed to the left of the screen.
 
 ### The Site Features: 
 
